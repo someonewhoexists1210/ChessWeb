@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body onload="gameCanvas.start()">
+    
+    <div class="center">
+        <h1 id="result"></h1>
+        <button onclick="gameStart()" id="start">Start</button>
+    </div>
+
+    <div class="modal hidden">
+        <div class="modal-content">
+          <button class="promote">Queen</button>
+          <button class="promote">Rook</button>
+          <button class="promote">Bishop</button>
+          <button class="promote">Knight</button>
+        </div>
+    </div>
+
+</body>
+</html>

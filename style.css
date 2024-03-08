@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 600px;
+    border: 2px solid black;
+    
+}
+
+.center {    
+    margin: auto;
+    width: fit-content;
+    padding-bottom: 10px;
+}
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 450px;
+    padding: 1.3rem;
+    min-height: 250px;
+    position: absolute;
+    top: 20%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+  }
+.hidden {
+    display: none;
+}
+
+  
